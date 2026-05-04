@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>🛡️ RED SHIELD</h1>
+  <h1> RED SHIELD</h1>
   <p><b>Post-Quantum Secure SIMBA Prime Node & Quantum Native Wallet</b></p>
   <p>
     <a href="https://github.com/redshield-pqc">GitHub</a> •
