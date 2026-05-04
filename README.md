@@ -33,7 +33,7 @@ The backbone of the Red Shield network. Run a node, secure the network, and earn
 
 New to Red Shield? Start here to understand how to install, run, and learn about the technology.
 
-- 🛠️ **[Installation Guide & Video Script](docs/INSTALLATION_GUIDE.md)** - Step-by-step instructions on installing the Node and Wallet.
+- 🛠️ **[Installation Guide](docs/INSTALLATION_GUIDE.md)** - Step-by-step instructions on installing the Node and Wallet.
 - 🔐 **[Security & Architecture Litepaper](docs/SECURITY_ARCHITECTURE.md)** - Learn about ML-DSA post-quantum cryptography and the Trinity Identity architecture.
 - 🤝 **[Community Guidelines](CODE_OF_CONDUCT.md)** - How we operate.
 - 🛡️ **[Security Policy](SECURITY.md)** - How to report vulnerabilities.
