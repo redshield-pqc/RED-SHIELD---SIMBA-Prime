@@ -9,7 +9,7 @@ Red Shield is designed from the ground up to address the two most critical exist
 Current blockchain networks rely heavily on Elliptic Curve Cryptography (ECDSA) or RSA for securing digital signatures. As quantum computers advance, specifically with the implementation of Shor's algorithm, these traditional cryptographic methods will be easily broken, rendering modern wallets and identities completely insecure.
 
 ### The Red Shield Solution: ML-DSA
-Red Shield is a "Quantum Native" ecosystem. We have abandoned legacy ECDSA entirely in favor of the NIST-standardized **ML-DSA (Module-Lattice-Based Digital Signature Algorithm)**, formally known as CRYSTALS-Dilithium.
+Red Shield is a "Quantum Native" ecosystem. We have abandoned legacy ECDSA entirely in favor of the NIST-standardized **ML-DSA (Module-Lattice-Based Digital Signature Algorithm)**, formally.
 
 - **Lattice-Based Security:** ML-DSA relies on the hardness of finding short vectors in lattices, a mathematical problem that is provably resistant to both classical and quantum algorithms.
 - **Future-Proof Identity:** Every wallet generated on the Red Shield network, and every SIMBA Prime node identity, uses ML-DSA. Your assets are secure today, and will remain secure against the supercomputers of tomorrow.
