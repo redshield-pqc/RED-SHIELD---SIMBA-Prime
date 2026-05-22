@@ -19,13 +19,13 @@ Get started immediately by downloading our core applications below.
 
 ### 📱 1. Quantum Native Wallet (Android APK)
 The user-facing mobile wallet. Manage assets, view your node's staking rewards, and send post-quantum secure transactions.
-- **[Download the Wallet APK](./RED%20SHIELD%20-%20Quantum_Native_Wallet%20-%20BetaNet%20-%20v1.1.0/RED%20SHIELD%20-%20Quantum_Native%20Wallet%20-%20BetaNet-v1.1.0.apk)**
-- *Verify integrity with the [SHA1 file](./RED%20SHIELD%20-%20Quantum_Native_Wallet%20-%20BetaNet%20-%20v1.1.0/RED%20SHIELD%20-%20Quantum_Native%20Wallet%20-%20BetaNet-v1.1.0.apk.sha1)*
+- **[Download the Wallet APK](https://github.com/redshield-pqc/RED-SHIELD---SIMBA-Prime/releases)**
+- *Verify integrity with the [SHA1] file.
 
 ### 🖥️ 2. SIMBA Prime Node (Windows MSI)
 The backbone of the Red Shield network. Run a node, secure the network, and earn rewards based on your Progressive Trust Score (PTS).
-- **[Download the Node Installer](./RED%20SHIELD%20-%20SIMBA%20PRIME%20-%20BetaNet_NODE%20-%20v1.1.0/RedShieldNode_v11.msi)**
-- *Verify integrity with the [SHA256 checksum](./RED%20SHIELD%20-%20SIMBA%20PRIME%20-%20BetaNet_NODE%20-%20v1.1.0/SHA256SUM.txt)*
+- **[Download the Node Installer](https://github.com/redshield-pqc/RED-SHIELD---SIMBA-Prime/releases)**
+- *Verify integrity with the [SHA256 checksum] file.
 
 ---
 
