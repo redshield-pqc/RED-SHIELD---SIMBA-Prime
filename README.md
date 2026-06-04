@@ -28,7 +28,7 @@ The **SIMBA_PRIME_3.1** build marks the transition from BetaNet to a hardened pu
 | **Target Block Time** | 30 Seconds |
 | **Consensus Anchor** | ML-DSA-87 (NIST FIPS 204) |
 | **Issuance Identifier** | **KALKI+** (Protocol-Native) |
-| **Production Build** | `.\SIMBA_PRIME_3.1.exe` |
+| **Production Build** | `.\SIMBA_PRIME_3.1.exe .` |
 
 ## **🔗 Official Ecosystem**
 
