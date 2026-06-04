@@ -28,12 +28,12 @@ The **SIMBA_PRIME_3.1** build marks the transition from BetaNet to a hardened pu
 | **Target Block Time** | 30 Seconds |
 | **Consensus Anchor** | ML-DSA-87 (NIST FIPS 204) |
 | **Issuance Identifier** | **KALKI+** (Protocol-Native) |
-| **Production Build** | `.\SIMBA_PRIME_3.1.exe` |
+| **Production Build** | `.\SIMBA_PRIME_3.1.exe .` |
 
 ## **🔗 Official Ecosystem**
 
 *   **Full Documentation:** [Red Shield Wiki](https://github.com/redshield-pqc/RED-SHIELD---SIMBA-Prime)
-*   **Security Certificate:** [View June 2026 Audit](https://github.com/redshield-pqc/RED-SHIELD---SIMBA-Prime/blob/main/SECURITY_CERTIFICATE.md)
+*   **Security Certificate:** [View June 2026 Audit - RED SHIELD - SECURITY_CERTFICATE-04_JUNE_2026.md]
 *   **Release Assets:** [Windows MSI Installer](https://github.com/redshield-pqc/RED-SHIELD---SIMBA-Prime/releases/tag/SIMBA_PRIME_3.1) | [Quantum Wallet (Android)](https://github.com/redshield-pqc/RED-SHIELD---SIMBA-Prime/releases/tag/Quantum_Native_Wallet)
 
 **MBITS © 2026 Red Shield — .\SIMBA_PRIME_3.1.exe .**
