@@ -1,7 +1,7 @@
 # 🛡️ Go Module Security & Dependency Forensic Certificate
 **Target Release**: `SIMBA_PRIME_3.1.exe`
 **Analysis Date**: June 4, 2026
-**Issuing Authority**: Red Shield Security Audit Division
+**Issuing Authority**: Red Shield Security - External Partner
 
 ---
 
