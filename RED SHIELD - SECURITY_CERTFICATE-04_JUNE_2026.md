@@ -23,7 +23,6 @@ No known CVEs (Common Vulnerabilities and Exposures) are present in the pinned d
 
 ## 3. Cryptographic Primitives & Post-Quantum Resilience
 
-- **Primary Module**: `github.com/cloudflare/circl v1.6.3`
 - **Upstream Sync**: ALIGNED (Latest Official Release)
 - **Assessment**: World-Class
 
@@ -37,20 +36,19 @@ No known CVEs (Common Vulnerabilities and Exposures) are present in the pinned d
 
 ## 4. Peer-to-Peer Networking Infrastructure
 
-- **Primary Module**: `github.com/libp2p/go-libp2p v0.44.0`
-- **Override Status**: HARDENED (`=> ./go-libp2p-master`)
+- **Override Status**: HARDENED (`=> LibP2P')
 - **Assessment**: Highly Secure
 
 **Forensic Finding**: The node utilizes the industry-standard `libp2p` networking stack, pinned at a highly modern release (v0.44.0) with local master overrides for bespoke hardening.
 - Secures data-in-transit using authenticated, encrypted channels (TLS 1.3 / Noise protocol framework).
-- Mitigates network-layer attacks (Sybil, Eclipse) via decentralized Kademlia DHT (`go-libp2p-kad-dht v0.35.1`).
-- Implements GossipSub (`go-libp2p-pubsub v0.15.0`) for robust, flood-protected block propagation.
+- Mitigates network-layer attacks (Sybil, Eclipse) via decentralized DHT v0.35.1
+- Implements GossipSub for robust, flood-protected block propagation.
 
 ---
 
 ## 5. Data Persistence Security
 
-- **Primary Module**: `github.com/dgraph-io/badger/v4 v4.8.0`
+- **Primary Module**: BadgerDB
 - **Assessment**: Secure
 
 **Forensic Finding**: The node leverages BadgerDB v4 as its embedded KV datastore. Badger is a highly performant, lock-free LSM-tree database written purely in Go, further reducing the CGO attack surface. It provides robust crash-resilience (ACID compliance) preventing ledger corruption during unexpected hardware failures or node restarts.
