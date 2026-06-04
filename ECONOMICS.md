@@ -47,7 +47,7 @@ QuadraticStake = ISQRT(RawStake_in_mBITS)
 
 ### **Layer 2: The Conviction Multiplier**
 While capital influence is dampened quadratically, temporal commitment is rewarded exponentially.
-$$\text{ConvictionMultiplier} = 1 + (\text{LockupYears})^2$$
+ConvictionMultiplier = 1 + (LockupYears)^2
 *   **The Cap:** Maximum lockup is **10 years**, yielding a **101x multiplier** to trust gains and staking weights.
 
 ### **The Meritocratic Result**
