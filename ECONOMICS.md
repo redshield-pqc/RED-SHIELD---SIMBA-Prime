@@ -10,8 +10,8 @@ To accommodate both micro-transactions and massive value transfers, Red Shield u
 | **Denomination** | **Symbol** | **Conversion** | **Purpose** |
 | :--- | :--- | :--- | :--- |
 | **mBITS** | mBITS | Base Unit | The precision layer. All on-chain balances and settlement occur in mBITS. |
-| **REDS** | REDS | $1 = 1,000,000$ mBITS | Primary everyday currency for sending, receiving, and staking. |
-| **KALKI** | KALKI | $1 = 100,000$ REDS | High-value denomination designed to express major transfers clearly. |
+| **REDS** | REDS | 1 = 1,000,000 mBITS | Primary everyday currency for sending, receiving, and staking. |
+| **KALKI** | KALKI | 1 = 100,000 REDS | High-value denomination designed to express major transfers clearly. |
 
 **Core Mathematical Scale:** $1\text{ KALKI} = 100,000\text{ REDS} = 100,000,000,000\text{ mBITS}$.
 
