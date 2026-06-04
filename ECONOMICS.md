@@ -42,7 +42,7 @@ Red Shield mathematically flattens the power curve to prevent "plutocratic conse
 
 ### **Layer 1: Quadratic Stake Weighting**
 Before rewards or voting weights are calculated, the protocol applies an **Integer Square Root (ISQRT)** to the raw stake.
-$$\text{QuadraticStake} = \text{ISQRT}(\text{RawStake\_in\_mBITS})$$
+QuadraticStake = ISQRT(RawStake_in_mBITS)
 *   **The Result:** A participant with **100x** more capital only achieves **10x** the influence. A participant with **10,000x** more capital only achieves **100x** the weight.
 
 ### **Layer 2: The Conviction Multiplier**
