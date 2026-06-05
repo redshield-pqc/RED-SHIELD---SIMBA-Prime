@@ -69,7 +69,7 @@ Project maintainers are responsible for:
 ✓ **Removing, editing, or rejecting** contributions not aligned with this Code of Conduct
 ✓ **Banning temporarily or permanently** individuals who repeatedly violate this code
 
-> **Scope:** This Code of Conduct applies both within project spaces and in public spaces when an individual is representing Red Shield or its community (e.g., using official project email, speaking at conferences, acting as a project representative).
+> **Scope:** This Code of Conduct applies both within project spaces and in public spaces when an individual is representing Red Shield or its community (e.g., using official project email, speaking at conferences, acting as a project representative on social media, participating in official discussions).
 
 ---
 
@@ -79,8 +79,8 @@ Project maintainers are responsible for:
 
 Instances of abusive, harassing, or unacceptable behavior may be reported by contacting the Red Shield project team:
 
-📧 **Email:** [maintainers contact]  
-🔒 **Confidential Reports:** All complaints will be reviewed and investigated professionally.
+📧 **Email:** redshield.pqc@gmail.com  
+🔒 **Confidential Reports:** All complaints will be reviewed and investigated professionally within 7 business days.
 
 ### Response Process
 
@@ -98,7 +98,7 @@ Communication to Reporter & Violator
 Appeal Process (if applicable)
 ```
 
-**Confidentiality:** The identity of the reporter will be protected to the extent possible.
+**Confidentiality:** The identity of the reporter will be protected to the extent possible. We ensure fair treatment of all parties involved.
 
 ---
 
