@@ -118,7 +118,7 @@ Red Shield prevents **single-axis dominance** through three distinct proof layer
 
 The **Adaptive Threshold** ensures Byzantine fault tolerance:
 
-$$\text{Finality Threshold} = \min\left(67\%, \max\left(51\%, \frac{4.45}{\log_2(N)}\right)\right)$$
+Finality Threshold = min(67%, max(51%, 4.45 / log2(N)))
 
 | Component | Value | Purpose |
 |-----------|-------|---------|
