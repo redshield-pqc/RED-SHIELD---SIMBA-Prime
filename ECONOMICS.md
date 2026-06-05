@@ -28,17 +28,17 @@ Red Shield uses a **three-tier denomination system** for both micro-transactions
 │                                              │
 │  KALKI (High-Value Settlement)               │
 │  ↓ 1 KALKI = 100,000 REDS                    │
-│  ↓ Used for: Major transfers, institutions  │
+│  ↓ Used for: Major transfers, institutions   │
 │                                              │
 │  REDS (Everyday Currency)                    │
-│  ↓ 1 REDS = 1,000,000 mBITS                 │
+│  ↓ 1 REDS = 1,000,000 mBITS                  │
 │  ↓ Used for: Send, receive, stake            │
 │                                              │
 │  mBITS (Precision Layer)                     │
 │  ↓ Base unit                                 │
 │  ↓ Used for: All on-chain settlement         │
 │                                              │
-│  Scale: 1 KALKI = 100,000,000,000 mBITS    │
+│  Scale: 1 KALKI = 100,000,000,000 mBITS      │
 │                                              │
 └──────────────────────────────────────────────┘
 ```
@@ -63,16 +63,16 @@ Red Shield rejects **centralized minting and VC-led allocations**. New currency 
 
 ```
 ┌──────────────────────────────────────────────┐
-│    PROTOCOL-NATIVE ISSUANCE (KALKI+)        │
+│    PROTOCOL-NATIVE ISSUANCE (KALKI+)         │
 ├──────────────────────────────────────────────┤
 │                                              │
-│  Symbolic Sender: KALKI+                    │
+│  Symbolic Sender: KALKI+                     │
 │  (Protocol identifier, not a user wallet)    │
 │                                              │
 │  Block Heartbeat: ~30 seconds                │
-│  Per-Block Reward: 1,000 mBITS              │
-│  Blocks per Year: ~1,051,200                │
-│  Annual Issuance: ~1,051.2 REDS             │
+│  Per-Block Reward: 1,000 mBITS               │
+│  Blocks per Year: ~1,051,200                 │
+│  Annual Issuance: ~1,051.2 REDS              │
 │                                              │
 │  Genesis Reserve:                            │
 │  Mother Wallet ← 1 trillion REDS             │
@@ -114,7 +114,7 @@ Every block reward incentivizes both immediate labor and long-term commitment:
 │                                            │
 │  20% → Staking Pool (200 mBITS)            │
 │  ├─ Distributed: Proportionally to stakers │
-│  ├─ Weighting: Conviction-Weighted Stake  │
+│  ├─ Weighting: Conviction-Weighted Stake   │
 │  └─ Incentive: Long-term commitment        │
 │                                            │
 │  ✓ Zero-Dust Policy:                       │
@@ -203,19 +203,19 @@ $$\text{Conviction Multiplier} = 1 + (\text{Lockup Years})^2$$
 │  Small Staker                                        │
 │  ├─ Raw Stake: 100,000 mBITS                         │
 │  ├─ Lockup: 4 years                                  │
-│  ├─ Quadratic Weight: √100,000 = 316                │
-│  ├─ Conviction Bonus: 1 + 4² = 17x                  │
-│  └─ Total Influence: 316 × 17 = 5,372               │
+│  ├─ Quadratic Weight: √100,000 = 316                 │
+│  ├─ Conviction Bonus: 1 + 4² = 17x                   │
+│  └─ Total Influence: 316 × 17 = 5,372                │
 │                                                      │
 │  Capital Whale                                       │
 │  ├─ Raw Stake: 10,000,000 mBITS                      │
-│  ├─ Lockup: 0 years (liquid)                        │
-│  ├─ Quadratic Weight: √10,000,000 = 3,162          │
-│  ├─ Conviction Bonus: 1 + 0² = 1x                   │
-│  └─ Total Influence: 3,162 × 1 = 3,162              │
+│  ├─ Lockup: 0 years (liquid)                         │
+│  ├─ Quadratic Weight: √10,000,000 = 3,162            │
+│  ├─ Conviction Bonus: 1 + 0² = 1x                    │
+│  └─ Total Influence: 3,162 × 1 = 3,162               │
 │                                                      │
-│  ✓ Result: Small Staker (5,372) > Whale (3,162)    │
-│  ✓ Advantage: 70% MORE INFLUENCE with 1% of capital │
+│  ✓ Result: Small Staker (5,372) > Whale (3,162)      │
+│  ✓ Advantage: 70% MORE INFLUENCE with 1% of capital  │
 │                                                      │
 └──────────────────────────────────────────────────────┘
 ```
