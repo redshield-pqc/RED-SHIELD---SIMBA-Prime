@@ -1,4 +1,4 @@
-# 🛡️ Red Shield Architecture
+# Red Shield Architecture
 
 ## SIMBA PRIME: Quantum-Native Merit-Based Consensus
 
@@ -32,13 +32,13 @@ Red Shield operates on **five architectural pillars** that decouple network infl
 │           SIMBA PRIME Architecture              │
 ├─────────────────────────────────────────────────┤
 │  Self-Sovereign Identity (Trinity Model)        │
-│           ↓                                      │
+│           ↓                                     │
 │  Identity-to-Authority Binding (PTS)            │
-│           ↓                                      │
+│           ↓                                     │
 │  Merit-Based Promotion (Auto-tier)              │
-│           ↓                                      ���
+│           ↓                                     |
 │  Behavioral Attestation (PoN)                   │
-│           ↓                                      │
+│           ↓                                     │
 │  Adaptive Consensus Scaling (Log-scale)         │
 └─────────────────────────────────────────────────┘
 ```
@@ -56,22 +56,22 @@ To **minimize attack surface**, node identity is split into **three mathematical
 │          TRINITY IDENTITY MODEL                     │
 ├─────────────────────────────────────────────────────┤
 │                                                     │
-│  [COLD] Mother Wallet                              │
-│  ├─ Machine-bound master secret                    │
-│  ├─ Registered network identity                    │
-│  ├─ Never signs at runtime                         │
-│  └─ Holds bulk validator assets                    │
+│  [COLD] Mother Wallet                               │
+│  ├─ Machine-bound master secret                     │
+│  ├─ Registered network identity                     │
+│  ├─ Never signs at runtime                          │
+│  └─ Holds bulk validator assets                     │
 │                                                     │
-│  [HOT]  Hot Key (SSNI)                             │
-│  ├─ Hybrid: ML-DSA-87 + Ed25519                    │
-│  ├─ Generated on boot, resides in RAM              │
-│  ├─ Signs live attestations & blocks               │
-│  └─ Holds zero funds                               │
+│  [HOT]  Hot Key (SSNI)                              │
+│  ├─ Hybrid: ML-DSA-87 + Ed25519                     │
+│  ├─ Generated on boot, resides in RAM               │
+│  ├─ Signs live attestations & blocks                │
+│  └─ Holds zero funds                                │
 │                                                     │
-│  [DECOUPLED] Reward Address                        │
-│  ├─ Separate block reward destination              │
-│  ├─ Isolated from operational compromise           │
-│  └─ Protects accumulated revenue                   │
+│  [DECOUPLED] Reward Address                         │
+│  ├─ Separate block reward destination               │
+│  ├─ Isolated from operational compromise            │
+│  └─ Protects accumulated revenue                    │
 │                                                     │
 └─────────────────────────────────────────────────────┘
 ```
@@ -88,28 +88,28 @@ Red Shield prevents **single-axis dominance** through three distinct proof layer
 
 ```
 ┌──────────────────────────────────────────────────────┐
-│    TRI-LAYER CONSENSUS ENGINE                       │
+│    TRI-LAYER CONSENSUS ENGINE                        │
 ├──────────────────────────────────────────────────────┤
 │                                                      │
-│  ┌─────────────────────────────────────────────┐   │
-│  │ LAYER 1: Proof of Authority (PoA)           │   │
-│  │ Purpose: Scheduling                         │   │
-│  │ Logic: Leader = Height (mod ValidatorCount) │   │
-│  └─────────────────────────────────────────────┘   │
-│           ↓                                         │
-│  ┌─────────────────────────────────────────────┐   │
-│  │ LAYER 2: Proof of Capacity (PoC)            │   │
-│  │ Purpose: Proposal                           │   │
-│  │ Method: SHAKE-256 plot "mining" (lowest ⏱) │   │
-│  │ Benefit: Storage I/O vs. energy-intensive   │   │
-│  └─────────────────────────────────────────────┘   │
-│           ↓                                         │
-│  ┌─────────────────────────────────────────────┐   │
-│  │ LAYER 3: Proof of Network (PoN)             │   │
-│  │ Purpose: Finality                           │   │
-│  │ Method: Adaptive threshold Byzantine fault  │   │
-│  │ tolerance validation                        │   │
-│  └─────────────────────────────────────────────┘   │
+│  ┌─────────────────────────────────────────────┐     │
+│  │ LAYER 1: Proof of Authority (PoA)           │     │
+│  │ Purpose: Scheduling                         │     │
+│  │ Logic: Leader = Height (mod ValidatorCount) │     │
+│  └─────────────────────────────────────────────┘     │
+│           ↓                                          │
+│  ┌─────────────────────────────────────────────┐     │
+│  │ LAYER 2: Proof of Capacity (PoC)            │     │
+│  │ Purpose: Proposal                           │     │
+│  │ Method: SHAKE-256 plot "mining" (lowest ⏱) │     │
+│  │ Benefit: Storage I/O vs. energy-intensive   │     │
+│  └─────────────────────────────────────────────┘     │
+│           ↓                                          │
+│  ┌─────────────────────────────────────────────┐     │
+│  │ LAYER 3: Proof of Network (PoN)             │     │
+│  │ Purpose: Finality                           │     │
+│  │ Method: Adaptive threshold Byzantine fault  │     │
+│  │ tolerance validation                        │     │
+│  └─────────────────────────────────────────────┘     │
 │                                                      │
 └──────────────────────────────────────────────────────┘
 ```
@@ -230,19 +230,19 @@ Red Shield treats **network partitions as temporary states**, not catastrophic e
                         │  CONSENSUS      │
                         └────────┬────────┘
                                  │
-                  ┌──────────────┼──────────────┐
-                  │              │              │
+                  ┌──────────────┼─────────────┐
+                  │              │             │
            ┌──────▼────┐  ┌──────▼────┐ ┌──────▼────┐
-           │ Self-      │  │  Merit-   │ │ Quantum-  │
-           │ Sovereign  │  │ Based     │ │ Native    │
-           │ Identity   │  │ Authority │ │ Crypto    │
-           │ (Trinity)  │  │ (PTS)     │ │ (Hybrid)  │
-           └───────┬────┘  └─────┬─────┘ └─────┬─────┘
-                   │             │             │
-              ┌────▼─────────────▼─────────────▼──┐
-              │   TRI-LAYER CONSENSUS             │
+           │ Self-     │  │  Merit-   │ │ Quantum-  │
+           │ Sovereign │  │ Based     │ │ Native    │
+           │ Identity  │  │ Authority │ │ Crypto    │
+           │ (Trinity) │  │ (PTS)     │ │ (Hybrid)  │
+           └───────┬───┘  └─────┬─────┘ └─────┬─────┘
+                   │            │             │
+              ┌────▼────────────▼─────────────▼──┐
+              │   TRI-LAYER CONSENSUS            │
               │  PoA → PoC → PoN (Finality)      │
-              └────┬───────────────────────────┬──┘
+              └────┬───────────────────────────┬─┘
                    │                           │
          ┌─────────▼──┐              ┌─────────▼──┐
          │ Normal     │              │ Partition  │
