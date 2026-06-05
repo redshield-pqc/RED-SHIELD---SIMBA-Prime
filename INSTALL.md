@@ -13,6 +13,7 @@
 - [3. The Onboarding Wizard](#3-the-onboarding-wizard)
 - [4. Local Security Architecture](#4-local-security-architecture)
 - [5. Verification of Status](#5-verification-of-status)
+- [6. Troubleshooting](#6-troubleshooting)
 
 ---
 
@@ -355,7 +356,7 @@ Next Block Probability: 12.3%
 **Solution:**
 1. Add to Exceptions: `Settings > Virus & threat protection > Manage settings > Add exceptions`
 2. Add: `C:\Program Files\Red Shield\SIMBA_PRIME_3.1.exe`
-3. Contact support: redshield.pqc@gmail.com
+3. Contact support: **redshield.pqc@gmail.com**
 
 ---
 
