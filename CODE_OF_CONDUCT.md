@@ -117,17 +117,17 @@ This Code of Conduct is adapted from the [Contributor Covenant](http://contribut
 │   RED SHIELD COMMUNITY VALUES                │
 ├──────────────────────────────────────────────┤
 │                                              │
-│  🏆 Merit > Money                            │
-│  🔐 Security > Speed                         │
-│  🤝 Collaboration > Fragmentation            │
-│  🧠 Evidence > Assertion                     │
-│  ♾️  Resilience > Brittleness                │
-│                                              │
+│  🏆 Merit > Money                           │
+│  🔐 Security > Speed                        │
+│  🤝 Collaboration > Fragmentation           │
+│  🧠 Evidence > Assertion                    │
+│  ♾️  Resilience > Brittleness               │
+│                                             │
 │  → We build for the long term.              │
 │  → We value cryptographic rigor.            │
 │  → We reward contribution, not capital.     │
-│                                              │
-└──────────────────────────────────────────────┘
+│                                             │
+└─────────────────────────────────────────────┘
 ```
 
 ---
