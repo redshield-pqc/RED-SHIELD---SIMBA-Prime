@@ -2,7 +2,7 @@
 
 ## SIMBA PRIME: Quantum-Native Merit-Based Consensus
 
-> **Red Shield** replaces legacy capital-concentration risks with a **merit-based, cryptographically sovereign** framework for distributed consensus. This document details the mathematical and structural foundations of the **SIMBA PRIME** model.
+> **Red Shield** replaces legacy capital-concentration risks with a **merit-based, cryptographically sovereign** framework for distributed consensus. This document details the mathematical and structural innovations that eliminate wealth-concentration bias while maintaining Byzantine fault tolerance and quantum resistance.
 
 ---
 
