@@ -19,13 +19,13 @@
 
 ```
 Legacy Chains (BTC, ETH, SOL)    →    Red Shield (Next Generation)
-┌─────────────────────────────────────────────────────────┐
-│ ❌ ECDSA (vulnerable to Shor's)  │  ✅ ML-DSA-87 + Ed25519
-│ ❌ Wealth = Power                 │  ✅ Contribution = Power
-│ ❌ Linear scaling                 │  ✅ Logarithmic efficiency
-│ ❌ Single-axis risk               │  ✅ Triple-layer consensus
-│ ❌ Halts on partitions            │  ✅ Self-healing protocol
-└─────────────────────────────────────────────────────────┘
+┌────────────────────────────────────────────────────────────────┐
+│ ❌ ECDSA (vulnerable to Shor's)   │  ✅ ML-DSA-87 + Ed25519    │
+│ ❌ Wealth = Power                 │  ✅ Contribution = Power   │
+│ ❌ Linear scaling                 │  ✅ Logarithmic efficiency │
+│ ❌ Single-axis risk               │  ✅ Triple-layer consensus │
+│ ❌ Halts on partitions            │  ✅ Self-healing protocol  │
+└────────────────────────────────────────────────────────────────┘
 ```
 
 ---
