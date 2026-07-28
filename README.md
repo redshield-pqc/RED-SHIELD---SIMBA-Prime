@@ -177,8 +177,6 @@ Network partitions heal automatically with **zero value loss**:
 
 | Channel | Link |
 |---------|------|
-| **Discord** | [Join Community](#) |
-| **Reddit** | [r/redshield](#) |
 | **Twitter/X** | [@RedShieldPQC](#) |
 | **Email Support** | redshield.pqc@gmail.com |
 | **GitHub Issues** | [Report Issues](#) |
