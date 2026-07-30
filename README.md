@@ -1,5 +1,7 @@
 # 🛡️ Red Shield: Quantum-Native Blockchain
 
+[🌐 Official site](https://redshield.online) · [🔒 Security & verification](https://redshield.online/security) · [📥 Releases](https://github.com/redshield-pqc/RED-SHIELD---SIMBA-Prime/releases)
+
 > **The first distributed ledger engineered from block zero to survive the post-quantum era.**
 
 [![GitHub Release](https://img.shields.io/github/v/release/redshield-pqc/RED-SHIELD---SIMBA-Prime)](https://github.com/redshield-pqc/RED-SHIELD---SIMBA-Prime/releases)
@@ -13,19 +15,19 @@
 
 ## ⚡ What Is Red Shield?
 
-**Red Shield** is a **production-ready quantum-resistant blockchain** implementing the **SIMBA PRIME** consensus model. It decouples network influence from wealth through **merit-based validation**, ensuring decentralized consensus without plutocratic dominance.
+**Red Shield** is a **production-ready quantum-resistant blockchain** implementing the **SIMBA PRIME** consensus model. It decouples network influence from wealth through **merit-based validation**[...]
 
 ### Why Red Shield Matters
 
 ```
 Legacy Chains (BTC, ETH, SOL)    →    Red Shield (Next Generation)
-┌────────────────────────────────────────────────────────────────┐
+┌────────────────────────────────────────────────────────────────�[...]
 │ ❌ ECDSA (vulnerable to Shor's)   │  ✅ ML-DSA-87 + Ed25519    │
 │ ❌ Wealth = Power                 │  ✅ Contribution = Power   │
 │ ❌ Linear scaling                 │  ✅ Logarithmic efficiency │
 │ ❌ Single-axis risk               │  ✅ Triple-layer consensus │
 │ ❌ Halts on partitions            │  ✅ Self-healing protocol  │
-└────────────────────────────────────────────────────────────────┘
+└────────────────────────────────────────────────────────────────�[...]
 ```
 
 ---
@@ -177,9 +179,10 @@ Network partitions heal automatically with **zero value loss**:
 
 | Channel | Link |
 |---------|------|
+| **Official Website** | [https://redshield.online](https://redshield.online) |
 | **Twitter/X** | [@RedShieldPQC](#) |
 | **Email Support** | redshield.pqc@gmail.com |
-| **GitHub Issues** | [Report Issues](#) |
+| **GitHub Issues** | [Report Issues](https://github.com/redshield-pqc/RED-SHIELD---SIMBA-Prime/issues) |
 
 ---
 
