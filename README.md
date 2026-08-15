@@ -229,10 +229,7 @@ Network partitions heal automatically with **zero value loss**:
 2. **I want to understand the protocol**
    → [Architecture & Economics](ARCHITECTURE.md)
 
-3. **I want to join the community**
-   → [Discord](#) | [Reddit](#)
-
-4. **I found a security issue**
+3. **I found a security issue**
    → redshield.pqc@gmail.com
 
 ---
