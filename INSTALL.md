@@ -1,6 +1,6 @@
 # 🚀 Installation Guide
 
-**Official Website:** https://redshield.online
+**Official Website:** https://redshield.live
 
 ## Red Shield SIMBA PRIME v3.1 — Technical Onboarding & Security Verification
 
@@ -49,14 +49,14 @@ Before you begin, ensure you have:
 The production node is delivered as a **signed Windows MSI installer** built via a hardened WiX pipeline.
 
 ### Official download sources
-- Canonical website (primary): https://redshield.online
+- Canonical website (primary): https://redshield.live
 - GitHub Releases (mirrors/artefacts): https://github.com/redshield-pqc/RED-SHIELD---SIMBA-Prime/releases
 
 **Important:** Always verify releases using checksums and detached signatures hosted on the official website before running installers.
 
 ### Step 1.1: Download the Installer
 
-📥 **Primary Source:** https://redshield.online (look for the "Releases" or "Downloads" section)
+📥 **Primary Source:** https://redshield.live (look for the "Releases" or "Downloads" section)
 
 📥 **Mirror/Backup:** GitHub Releases: https://github.com/redshield-pqc/RED-SHIELD---SIMBA-Prime/releases
 
@@ -80,8 +80,8 @@ Get-FileHash -Algorithm SHA256 .\RedShield-SIMBA_PRIME_v3.1.0.0.msi
 
 Retrieve the canonical SHA256SUM file and its detached PGP signature from the official website:
 
-- SHA256SUM file (canonical): https://redshield.online/releases/SHA256SUM.txt
-- Detached PGP signature: https://redshield.online/releases/SHA256SUM.txt.sig
+- SHA256SUM file (canonical): https://redshield.live/releases/SHA256SUM.txt
+- Detached PGP signature: https://redshield.live/releases/SHA256SUM.txt.sig
 
 Verify the SHA256 matches the official file. Then verify the detached PGP signature using the project PGP key (PGP fingerprint is published on the official website). Example:
 
@@ -159,7 +159,7 @@ During installation, the system initializes your **master secret** using **Windo
 **What to do next:**
 1. ✓ Monitor Dashboard for block production
 2. ✓ Expand PoC plot storage if desired (Plotting tab)
-3. ✓ Join the community: [Red Shield Discord] or visit https://redshield.online
+3. ✓ Join the community: [Red Shield Discord] or visit https://redshield.live
 4. ✓ Read SECURITY.md for advanced configurations
 
 ---
