@@ -1,6 +1,6 @@
 # 🛡️ Red Shield: Quantum-Native Blockchain
 
-[🌐 Official site](https://redshield.online) · [🔒 Security & verification](https://redshield.online/security) · [📥 Releases](https://github.com/redshield-pqc/RED-SHIELD---SIMBA-Prime/releases)
+[🌐 Official site](https://redshield.live) · [🔒 Security & verification](https://redshield.live/security) · [📥 Releases](https://github.com/redshield-pqc/RED-SHIELD---SIMBA-Prime/releases)
 
 > **The first distributed ledger engineered from block zero to survive the post-quantum era.**
 
@@ -179,7 +179,7 @@ Network partitions heal automatically with **zero value loss**:
 
 | Channel | Link |
 |---------|------|
-| **Official Website** | [https://redshield.online](https://redshield.online) |
+| **Official Website** | [https://redshield.live](https://redshield.live) |
 | **Twitter/X** | [@RedShieldPQC](#) |
 | **Email Support** | redshield.pqc@gmail.com |
 | **GitHub Issues** | [Report Issues](https://github.com/redshield-pqc/RED-SHIELD---SIMBA-Prime/issues) |
